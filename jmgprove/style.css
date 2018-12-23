@@ -1,0 +1,424 @@
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #272D33;
+
+
+}
+
+
+
+
+/* Navigation*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+li .login {
+  float: right;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+/*font*/
+
+h1 {
+ font-size: 50px
+ font-family: 'Arimo', sans-serif;
+
+}
+
+
+h5 {
+
+  font-weight:bold;
+  font-family: 'Arimo', sans-serif;
+}
+
+
+/* billeder ved siden af hinanden */
+
+.container {
+  background-color:#272D33;
+  margin: 0px;
+
+
+}
+
+.container1 {
+  background-color:#272D33;
+  position: relative;
+  color: white;
+  padding: 10px;
+  margin: 0px;
+}
+
+
+
+.top-left {
+  color: white;
+  position: absolute;
+
+  top: 30px;
+  left: 50px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/* knapper test din krop*/
+
+.button {
+  background-color: #E06517; /* Green */
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 19px 2px;
+  cursor: pointer;
+  width: 160px;
+box-shadow: 2px 3px 7px 0.5px #272D33;
+
+}
+
+.button3 {
+  border-radius: 8px;
+}
+
+
+.container-fluid {
+  margin-bottom: 40px;
+  padding: 0px 30px 0px 30px;
+
+
+}
+
+
+
+.baggrund {
+background-color: #272D33;
+
+}
+
+.baggrund1 {
+  background-color: #272D33;
+  padding-bottom: 40px;
+  color: white;
+
+
+}
+
+.overskrift {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 30px;
+
+
+}
+
+/* footer */
+
+.ucenter {
+  background-color: #272D33;
+  margin: auto;
+ width: 100%;
+ padding: 30px;
+ border-top: 1px solid #707070;
+}
+
+.fcenter {
+  background-color: #272D33;
+  color: white;
+  text-align: center;
+
+
+}
+
+/*sociale medier*/
+
+.scenter {
+  background-color: #272D33;
+  height: 100px;
+  text-align: center;
+
+
+}
+
+.column1 {
+  text-align: right;
+  float: left;
+  width: 50%;
+  padding: 10px;
+
+}
+
+
+
+.column2 {
+
+  float: right;
+  width: 50%;
+  padding: 10px;
+  height: 100px;
+}
+
+
+
+/*links*/
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+
+}
+
+a:hover {
+  text-decoration: none;
+  color: #E06517;
+}
+
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.linkfarve {
+
+  color: white;
+}
+
+
+
+/*image hover*/
+
+.urlImg {
+		width: 30px;
+		height:30px;
+		display:block;
+		content: url('img/instahvid.png');
+	}
+	.urlImg:hover {
+		content: url('img/insta.png');
+	}
+
+  .urlImg1 {
+  		width: 30px;
+  		height:30px;
+  		display:block;
+      float: right;
+  		content: url('img/facehvid.png');
+  	}
+  	.urlImg1:hover {
+  		content: url('img/face.png');
+  	}
+
+
+
+    @media (max-width: 800px) {
+    .info {
+    display: none;
+
+    }
+
+    .bg {
+    display: none;
+
+    }
+
+    .midten {
+        text-align: center;
+        color: white;
+        background-color: #272D33;
+        padding: 10px;
+
+    }
+
+    h3 {
+      font-size: 15px;
+      font-family: 'Arimo', sans-serif;
+
+    }
+
+    .container-fluid2 {
+      margin-bottom: 0px;
+      padding: 0px 30px 0px 30px;
+
+    }
+
+    .container-fluid2, .topleft {
+
+        padding: 20px 0px 10px 0px;
+    }
+
+    .container-fluid2, .topleft, p {
+
+      font-size: 10px;
+      line-height: 5px;
+    }
+
+    .baggrund, h2 {
+    color: white;
+    font-family: 'Arimo', sans-serif;
+
+    }
+
+    h2 {
+      line-height: 20px;
+      margin-bottom: 20px;
+        font-size: 15px;
+        font-family: 'Arimo', sans-serif;
+    }
+
+    .button1 {
+      background-color: #E06517; /* Green */
+      border: none;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 13px;
+      margin: 20px 2px;
+      cursor: pointer;
+      width: 170px;
+      box-shadow: 2px 3px 7px 0.5px #272D33;
+    }
+
+
+  h4 {
+    font-size: 12px;
+    font-family: 'Arimo', sans-serif;
+  }
+
+    }
+
+    @media only screen and (min-width: 600px) {
+
+    /*midten box*/
+    .midten {
+        text-align: center;
+        color: white;
+        background-color: #272D33;
+        padding: 120px;
+
+    }
+
+    }
+
+
+
+    @media only screen and (min-width: 800px) {
+
+
+    .info {
+      position: static;
+      padding: 0px 20px 20px 100px;
+      height: 700px;
+      color: white;
+    }
+
+    .bg {
+
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: -1;
+      }
+
+      .container-fluid2 {
+        margin-bottom: 40px;
+        padding: 0px 30px 0px 30px;
+      }
+
+
+
+
+      p {
+
+        line-height: 9px;
+        font-size: 17px;
+        font-family: 'Lato', sans-serif;
+
+      }
+
+      p {
+        display: block;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 0;
+        margin-right: 0;
+        font-family: 'Lato', sans-serif;
+      }
+
+      .top-lef, p {
+        line-height: 19px;
+        font-size: 17px;
+        font-family: 'Lato', sans-serif;
+      }
+
+      .baggrund, h2 {
+      color: white;
+
+      }
+
+      h2 {
+        line-height: 40px;
+        margin-bottom: 20px;
+        font-family: 'Arimo', sans-serif;
+      }
+
+      .button1 {
+        background-color: #E06517; /* Green */
+        border: none;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 13px;
+        margin: 59px 2px;
+        cursor: pointer;
+        width: 170px;
+        box-shadow: 2px 3px 7px 0.5px #272D33;
+
+      }
+
+    }
