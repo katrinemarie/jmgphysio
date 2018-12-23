@@ -1,3 +1,9 @@
+html {
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   height: 100%;
   margin: 0;
@@ -7,17 +13,25 @@ body {
 }
 
 
-
-
 /* Navigation*/
+header {
+  position: absolute;
+  width: 100%;
+  display: block;
+}
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 5px;
+  width: 100%;
   overflow: hidden;
+}
 
-
+.login-button {
+  float: right;
+  position: absolute;
+  right: 0;
 }
 
 li {
@@ -28,7 +42,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 36px;
   text-decoration: none;
 }
 
@@ -144,8 +158,8 @@ background-color: #272D33;
 
 .overskrift {
   text-align: center;
-  padding-top: 70px;
-  padding-bottom: 30px;
+  padding-top: 41px;
+  padding-bottom: 55px;
 
 
 }
@@ -156,7 +170,7 @@ background-color: #272D33;
   background-color: #272D33;
   margin: auto;
  width: 100%;
- padding: 30px;
+padding: 30px 30px 20px 30px;
  border-top: 1px solid #707070;
 }
 
@@ -174,8 +188,6 @@ background-color: #272D33;
   background-color: #272D33;
   height: 100px;
   text-align: center;
-
-
 }
 
 .column1 {
@@ -183,19 +195,20 @@ background-color: #272D33;
   float: left;
   width: 50%;
   padding: 10px;
-
 }
 
-
-
 .column2 {
-
   float: right;
   width: 50%;
   padding: 10px;
-  height: 100px;
+  height: 74px;
 }
 
+.logo-top-content {
+  width: 607px;
+  margin-bottom: 18px;
+  max-width: 95%;
+}
 
 
 /*links*/
@@ -250,7 +263,22 @@ a:active {
   		content: url('img/face.png');
   	}
 
+.info {
+  position: static;
+  padding: 100px 20px 20px 10%;
+  height: 700px;
+  color: white;
+  width: 100%;
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 10% 80%;
+  background-image: url("img/lobe.png");
+}
 
+.top-left > p {
+  line-height: 5px;
+}
 
     @media (max-width: 800px) {
     .info {
@@ -267,12 +295,15 @@ a:active {
         text-align: center;
         color: white;
         background-color: #272D33;
-        padding: 10px;
+        padding: 100px;
 
     }
 
     h3 {
-      font-size: 15px;
+      font-size: 19px;
+      line-height: 23px;
+      max-width: 80%;
+      margin: auto;
       font-family: 'Arimo', sans-serif;
 
     }
@@ -289,9 +320,7 @@ a:active {
     }
 
     .container-fluid2, .topleft, p {
-
-      font-size: 10px;
-      line-height: 5px;
+      font-size: 13px;
     }
 
     .baggrund, h2 {
@@ -303,7 +332,7 @@ a:active {
     h2 {
       line-height: 20px;
       margin-bottom: 20px;
-        font-size: 15px;
+        font-size: 19px;
         font-family: 'Arimo', sans-serif;
     }
 
@@ -337,7 +366,7 @@ a:active {
         text-align: center;
         color: white;
         background-color: #272D33;
-        padding: 120px;
+        padding: 105px 100px 55px 100px;
 
     }
 
@@ -350,7 +379,6 @@ a:active {
 
     .info {
       position: static;
-      padding: 0px 20px 20px 100px;
       height: 700px;
       color: white;
     }
@@ -422,3 +450,13 @@ a:active {
       }
 
     }
+
+@media only screen and (max-width: 991px) {
+  .col-md-3 {
+    margin-bottom: 8px;
+  }
+
+  .midten {
+    padding: 100px 50px 50px 50px;
+  }
+}
